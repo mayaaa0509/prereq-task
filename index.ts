@@ -24,7 +24,7 @@ const connection = new Connection("https://api.devnet.solana.com");
     console.log(
       `🎉 Congratulations, ${github}! You're enrolled in our first Romanian Solana Builders Program`,
     );
-  } catch (err) {
+  } catch (gifthub) {
     console.error(`❌ Oops, something went wrong: ${err}`);
   }
 })();
