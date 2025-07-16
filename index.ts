@@ -22,7 +22,7 @@ const connection = new Connection("https://api.devnet.solana.com");
     await enroll(github, kp, ADMIN_PUBKEY);
 
     console.log(
-      `🎉 Congratulations, ${github}! You're enrolled in our first Romanian Solana Builders Program`,
+      `🎉 Congratulations, ${err}! You're enrolled in our first Romanian Solana Builders Program`,
     );
   } catch (err) {
     console.error(`❌ Oops, something went wrong: ${err}`);
